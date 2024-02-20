@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS ASSIGNMENTS</title>
+</head>
+<body>
+<script type="text/javascript">
+// 	Write a program to calculate Debt-to-equity Total Liabilities (D/E) ratio as Total
+// shareholders' equity inputting total liabilities and total shareholders' equity.
+// And then print if an investor should invest in the company or not. A D/E ratio greater
+// than 2.0 indicates a risky scenario for an investor
+let liabilities = parseInt(prompt("Enter Total Liabilities : "))
+let equity = parseInt(prompt("Enter Total shareholders equity : "))
+let ratio = liabilities/equity
+if (ratio >= 2)
+{
+    alert("a risky scenario for an investor and investor should not invest in the company");
+}
+if(ratio<2)
+{
+	alert("The user should invest in the company")
+}
+</script>
+</body>
+</html>
